@@ -8,8 +8,8 @@ import BookList from './BookList';
 import {
   BrowserRouter as Router,
   Switch,
-  Route
-  
+  Route,
+  Link
 } from "react-router-dom";
 import { Navbar } from 'react-bootstrap';
 import Intro from './Intro';
@@ -22,8 +22,8 @@ return(
       
          <Navbar bg="dark">
          <div className="indigo">
-          <Navbar.Brand style={{color:'lightcyan'}} href="/">Home</Navbar.Brand>
-          <Navbar.Brand style={{color:'lightcyan'}} href="./Home">Click to Continue</Navbar.Brand>
+          <Navbar.Brand style={{color:'lightcyan'}} as={Link} to="/">Home</Navbar.Brand>
+          <Navbar.Brand style={{color:'lightcyan'}} as={Link} to="/Home">Click to Continue</Navbar.Brand>
           </div>
         </Navbar>
      
@@ -31,7 +31,7 @@ return(
             renders the first one that matches the current URL. */}
          <Switch>
            
-           <Route path="./Home">
+           <Route path="/Home">
              <Home />
            </Route>
            <Route path="/Login">

@@ -23,7 +23,7 @@ return(
          <Navbar bg="dark">
          <div className="indigo">
           <Navbar.Brand style={{color:'lightcyan'}} href="/">Home</Navbar.Brand>
-          <Navbar.Brand style={{color:'lightcyan'}} href="Home">Click to Continue</Navbar.Brand>
+          <Navbar.Brand style={{color:'lightcyan'}} href="/Home">Click to Continue</Navbar.Brand>
           </div>
         </Navbar>
      

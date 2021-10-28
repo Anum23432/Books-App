@@ -35,7 +35,7 @@ function Login() {
   
     return (
         <>
-          <Container style={{width:'40rem',backgroundColor:'rgb(30, 109, 65)', marginTop:'30px'}}>
+          <Container className="container" >
     
           <Card style={{backgroundColor:'lightcyan'}}>
           <Card.Body>

@@ -10,8 +10,8 @@ function Home() {
 
   return (
     <>
-   
-      <Card style={{width:'16rem',height:'10rem', marginLeft:'38%',backgroundColor:'lightcyan',borderRadius:'20px'}}>
+     <br/>
+      <Card className="square" >
         <Card.Body style={{boxShadow:'0 0 10px 0 rgb(30, 109, 65)', borderRadius:'20px'}}>
 
         <h4 style={{marginLeft:'6%'}}>First Login Here!!</h4><br/>
